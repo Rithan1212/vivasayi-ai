@@ -216,18 +216,3 @@ In `src/services/geminiService.ts`, replace the `askGemini` function with a call
 
 ---
 
-## 🧭 Future Improvements
-
-- 🎤 Voice input (Web Speech API) for low-literacy farmers
-- 🌦️ Live weather + market-price widgets on the dashboard
-- 📸 Image upload — let the AI diagnose plant disease from a photo (Gemini multimodal)
-- 🔁 Switch storage backend to **Firebase Firestore** (interface already abstracted)
-- 📲 PWA + offline-first mode
-- 🗣️ Add Hindi, Telugu, Kannada and Marathi
-- 👨‍🌾 Community Q&A — farmers help farmers, AI assists
-
----
-
-## 📜 License
-
-MIT — free for educational and commercial use. Built with 🌱 for farmers everywhere.
