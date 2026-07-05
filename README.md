@@ -168,9 +168,9 @@ krishimitra-ai/
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/krishimitra-ai.git
+git clone https://github.com/Rithan1212/vivasayi ai.git
 
-cd krishimitra-ai
+cd vivasayi
 ```
 
 ---
@@ -236,34 +236,6 @@ Swagger Documentation
 ```
 http://localhost:8000/docs
 ```
-
----
-
-# ⚙ Environment Variables
-
-## Frontend
-
-Create a `.env` file.
-
-```env
-VITE_API_URL=http://localhost:8000
-```
-
----
-
-## Backend
-
-Create a `.env` file.
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-
-SECRET_KEY=YOUR_SECRET_KEY
-
-DATABASE_URL=sqlite:///./krishimitra.db
-```
-
----
 
 # API Endpoints
 
