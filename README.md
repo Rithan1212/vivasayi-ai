@@ -1,45 +1,51 @@
-# 🌱 VIVASAYI AI
+# 🌾 VIVASAYI AI
 
-An AI-powered farmer advisory web application that helps farmers get instant agricultural guidance using Google's Gemini AI.
+<div align="center">
 
-Users can ask farming-related questions in **Tamil or English**, and the system provides structured AI-generated responses to help with crop management, pest control, soil health, and farming practices.
+### 🤖 AI-Powered Farmer Advisory System
+
+Helping farmers with intelligent agricultural guidance using **Google Gemini AI**
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite)
+![Gemini](https://img.shields.io/badge/Google-Gemini_AI-4285F4?logo=google)
+
+🌐 **Live Website:** https://vivasayi-ai.vercel.app
+
+⚙️ **Backend API:** https://vivasayi-ai.onrender.com
+
+📚 **API Docs:** https://vivasayi-ai.onrender.com/docs
+
+</div>
 
 ---
 
-## 🚀 Live Demo
+# 📖 About
 
-### 🌐 Frontend
-https://vivasayi-ai.vercel.app
+**VIVASAYI AI** is an AI-powered farmer advisory web application developed as a college mini project.
 
-### ⚙️ Backend API
-https://vivasayi-ai.onrender.com
+The application enables farmers to ask agriculture-related questions in **Tamil** or **English** and receive AI-generated guidance powered by **Google Gemini AI**.
 
-### 📚 API Documentation
-https://vivasayi-ai.onrender.com/docs
-
----
-
-# 📖 Project Overview
-
-VIVASAYI AI is a full-stack web application developed as a college mini project.
-
-The application combines a modern React frontend with a FastAPI backend and Google's Gemini AI to provide farming advice through a simple and user-friendly interface.
-
-The objective of the project is to make agricultural information easily accessible to farmers using Artificial Intelligence.
+The goal of this project is to make farming knowledge more accessible through Artificial Intelligence using a modern and responsive web application.
 
 ---
 
 # ✨ Features
 
-- 🌾 AI-powered farming advisory
-- 🤖 Google Gemini AI integration
-- 🌐 Supports Tamil and English queries
-- 👤 User Registration & Login
-- 🔐 JWT Authentication
+- 🤖 AI-powered farming assistance
+- 🌾 Agriculture advisory using Google Gemini AI
+- 🌐 Tamil & English language support
+- 👤 User Registration
+- 🔐 Secure Login using JWT Authentication
 - 📜 Query History
+- 🗑 Delete Individual History
+- 🗑 Clear Complete History
+- 🌙 Dark Mode / Light Mode
 - 📱 Responsive Design
-- 🌙 Dark & Light Theme
-- ⚡ FastAPI REST API
+- ⚡ REST API using FastAPI
 - 💾 SQLite Database
 
 ---
@@ -54,21 +60,23 @@ The objective of the project is to make agricultural information easily accessib
 - Tailwind CSS
 - React Router
 - Framer Motion
+- Lucide Icons
 
 ---
 
 ## Backend
 
-- FastAPI
 - Python
+- FastAPI
 - SQLAlchemy
 - Pydantic
 - JWT Authentication
 - Passlib
+- Uvicorn
 
 ---
 
-## AI
+## Artificial Intelligence
 
 - Google Gemini API
 
@@ -82,27 +90,31 @@ The objective of the project is to make agricultural information easily accessib
 
 # 📂 Project Structure
 
-```
+```text
 VIVASAYI-AI
 │
-├── frontend
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   └── vite.config.ts
-│
-├── backend
-│   ├── app
+├── backend/
+│   ├── app/
 │   ├── requirements.txt
-│   ├── .env.example
-│   └── main.py
+│   ├── runtime.txt
+│   └── .env.example
 │
+├── docs/
+│
+├── public/
+│
+├── src/
+│
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── index.html
 └── README.md
 ```
 
 ---
 
-# ⚙️ Installation
+# 🚀 Getting Started
 
 ## Clone Repository
 
@@ -110,35 +122,37 @@ VIVASAYI-AI
 git clone https://github.com/Rithan1212/vivasayi-ai.git
 ```
 
-```
+```bash
 cd vivasayi-ai
 ```
 
 ---
 
-# Frontend
-
-```
-cd frontend
-```
-
-Install dependencies
+# Install Frontend
 
 ```bash
 npm install
 ```
 
-Run
+---
+
+# Run Frontend
 
 ```bash
 npm run dev
 ```
 
----
-
-# Backend
+Application runs at
 
 ```
+http://localhost:5173
+```
+
+---
+
+# Run Backend
+
+```bash
 cd backend
 ```
 
@@ -174,17 +188,29 @@ Run Server
 uvicorn app.main:app --reload
 ```
 
+Backend runs at
+
+```
+http://localhost:8000
+```
+
+Swagger Documentation
+
+```
+http://localhost:8000/docs
+```
+
 ---
 
-# API Endpoints
+# 🔗 API Endpoints
 
 ## Authentication
 
 | Method | Endpoint |
 |---------|----------|
-| POST | /api/auth/register |
-| POST | /api/auth/login |
-| GET | /api/auth/me |
+| POST | `/api/auth/register` |
+| POST | `/api/auth/login` |
+| GET | `/api/auth/me` |
 
 ---
 
@@ -192,26 +218,26 @@ uvicorn app.main:app --reload
 
 | Method | Endpoint |
 |---------|----------|
-| POST | /api/advisory/ask |
-| GET | /api/advisory/history |
-| DELETE | /api/advisory/history/{id} |
-| DELETE | /api/advisory/history |
+| POST | `/api/advisory/ask` |
+| GET | `/api/advisory/history` |
+| DELETE | `/api/advisory/history/{id}` |
+| DELETE | `/api/advisory/history` |
 
 ---
 
-## Health
+## Health Check
 
 | Method | Endpoint |
 |---------|----------|
-| GET | /api/health |
+| GET | `/api/health` |
 
 ---
 
-# Deployment
+# 🌍 Deployment
 
 ## Frontend
 
-Hosted on **Vercel**
+**Vercel**
 
 https://vivasayi-ai.vercel.app
 
@@ -219,52 +245,52 @@ https://vivasayi-ai.vercel.app
 
 ## Backend
 
-Hosted on **Render**
+**Render**
 
 https://vivasayi-ai.onrender.com
 
 ---
 
-# Future Improvements
+# 🚀 Future Improvements
 
-- 🌱 Voice-based farmer interaction
-- 📷 Crop disease detection using images
-- 🌦 Weather-based farming recommendations
-- 📍 Location-specific advisory
-- 🌾 Fertilizer recommendation system
-- 📈 Crop yield prediction
-- 🔔 Notification system
-- 📊 Farmer analytics dashboard
+- 🎤 Voice-based Farmer Assistant
+- 📸 Plant Disease Detection using Images
+- 🌦 Weather Forecast Integration
+- 📍 GPS-based Farming Suggestions
+- 🌱 Fertilizer Recommendation
+- 📈 Crop Yield Prediction
+- 🔔 Push Notifications
+- 🌾 Multi-language Support
+- 📊 Farmer Dashboard & Analytics
 
 ---
 
-# Author
+# 👨‍💻 Developer
 
-**Rithan S**
+## Rithan S
 
-B.E Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+**B.E Computer Science & Engineering (Artificial Intelligence & Machine Learning)**
 
 V.S.B Engineering College
 
-GitHub:
+GitHub
+
 https://github.com/Rithan1212
 
 ---
 
-# License
+# 📄 License
 
-This project is developed for educational purposes as a college mini project.
-
----
-
-## ⭐ Support
-
-If you like this project,
-
-⭐ Star the repository on GitHub.
-
-It helps others discover the project and motivates future development.
+This project is developed for educational purposes as part of a college mini project.
 
 ---
 
-Made with ❤️ for Farmers 🌾
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a Star ⭐
+
+Made with ❤️ using React, FastAPI & Google Gemini AI
+
+🌾 **Empowering Farmers through Artificial Intelligence**
+
+</div>
