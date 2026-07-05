@@ -9,14 +9,13 @@
   <img src="https://img.shields.io/badge/Backend-FastAPI-009688" alt="FastAPI">
   <img src="https://img.shields.io/badge/AI-Google%20Gemini-orange" alt="Gemini">
   <img src="https://img.shields.io/badge/Database-SQLite-lightgrey" alt="SQLite">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
 ---
 
 ## 📖 Overview
 
-KrishiMitra AI is an intelligent farming assistant that provides expert agricultural recommendations using Google's Gemini AI. Farmers can ask questions related to crops, pests, diseases, irrigation, fertilizers, soil health, or weather conditions in either Tamil or English and receive well-structured responses.
+Vivasayi AI is an intelligent farming assistant that provides expert agricultural recommendations using Google's Gemini AI. Farmers can ask questions related to crops, pests, diseases, irrigation, fertilizers, soil health, or weather conditions in either Tamil or English and receive well-structured responses.
 
 Each advisory is organized into:
 
@@ -422,5 +421,5 @@ This project was developed for educational purposes as part of a college mini pr
 ---
 
 <p align="center">
-Made with ❤️ using React, FastAPI, and Google Gemini AI to empower farmers with intelligent agricultural guidance.
+Made with ❤️ for Farmers
 </p>
