@@ -1,90 +1,107 @@
-# 🌾 VIVASAYI AI
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=2E8B57&height=220&section=header&text=VIVASAYI%20AI&fontSize=45&fontColor=ffffff&animation=fadeIn"/>
+</p>
 
-<div align="center">
+<h1 align="center">🌾 VIVASAYI AI</h1>
 
-### 🤖 AI-Powered Farmer Advisory System
+<h3 align="center">
+AI-Powered Farmer Advisory System
+</h3>
 
-Helping farmers with intelligent agricultural guidance using **Google Gemini AI**
+<p align="center">
+Helping Farmers with Intelligent Agricultural Guidance using <b>Google Gemini AI</b>
+</p>
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi)
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python)
-![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite)
-![Gemini](https://img.shields.io/badge/Google-Gemini_AI-4285F4?logo=google)
+<p align="center">
 
-🌐 **Live Website:** https://vivasayi-ai.vercel.app
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google-Gemini-AI-4285F4?logo=google&logoColor=white)
 
-⚙️ **Backend API:** https://vivasayi-ai.onrender.com
+</p>
 
-📚 **API Docs:** https://vivasayi-ai.onrender.com/docs
+---
 
-</div>
+# 🌐 Live Demo
+
+| Service | Link |
+|----------|------|
+| 🌾 Frontend | https://vivasayi-ai.vercel.app |
+| ⚙️ Backend API | https://vivasayi-ai.onrender.com |
+| 📚 Swagger Docs | https://vivasayi-ai.onrender.com/docs |
 
 ---
 
 # 📖 About
 
-**VIVASAYI AI** is an AI-powered farmer advisory web application developed as a college mini project.
+VIVASAYI AI is a full-stack web application developed as a college mini project to provide AI-powered agricultural guidance.
 
-The application enables farmers to ask agriculture-related questions in **Tamil** or **English** and receive AI-generated guidance powered by **Google Gemini AI**.
+The application allows farmers to ask farming-related questions in **Tamil** or **English** and receive AI-generated responses using **Google Gemini AI**.
 
-The goal of this project is to make farming knowledge more accessible through Artificial Intelligence using a modern and responsive web application.
+It combines a modern React frontend with a FastAPI backend to create a responsive and user-friendly platform for agricultural assistance.
 
 ---
 
 # ✨ Features
 
-- 🤖 AI-powered farming assistance
-- 🌾 Agriculture advisory using Google Gemini AI
-- 🌐 Tamil & English language support
-- 👤 User Registration
-- 🔐 Secure Login using JWT Authentication
-- 📜 Query History
-- 🗑 Delete Individual History
-- 🗑 Clear Complete History
-- 🌙 Dark Mode / Light Mode
-- 📱 Responsive Design
-- ⚡ REST API using FastAPI
-- 💾 SQLite Database
+✅ AI-powered Farmer Advisory
+
+✅ Google Gemini AI Integration
+
+✅ Tamil & English Support
+
+✅ User Registration
+
+✅ Secure Login (JWT Authentication)
+
+✅ Query History
+
+✅ Delete Individual Query
+
+✅ Clear Complete History
+
+✅ Responsive UI
+
+✅ Dark & Light Theme
+
+✅ REST API using FastAPI
+
+✅ SQLite Database
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                 Farmer
+                    │
+                    ▼
+          React + Vite Frontend
+                    │
+              REST API Calls
+                    │
+                    ▼
+            FastAPI Backend
+              │           │
+              │           │
+              ▼           ▼
+         SQLite DB    Google Gemini AI
+```
 
 ---
 
 # 🛠 Tech Stack
 
-## Frontend
-
-- React
-- Vite
-- TypeScript
-- Tailwind CSS
-- React Router
-- Framer Motion
-- Lucide Icons
-
----
-
-## Backend
-
-- Python
-- FastAPI
-- SQLAlchemy
-- Pydantic
-- JWT Authentication
-- Passlib
-- Uvicorn
-
----
-
-## Artificial Intelligence
-
-- Google Gemini API
-
----
-
-## Database
-
-- SQLite
+| Category | Technologies |
+|-----------|--------------|
+| Frontend | React, Vite, TypeScript, Tailwind CSS, React Router, Framer Motion |
+| Backend | Python, FastAPI, SQLAlchemy, Pydantic, Passlib, JWT |
+| AI | Google Gemini API |
+| Database | SQLite |
+| Deployment | Vercel + Render |
 
 ---
 
@@ -114,21 +131,18 @@ VIVASAYI-AI
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Installation
 
 ## Clone Repository
 
 ```bash
 git clone https://github.com/Rithan1212/vivasayi-ai.git
-```
-
-```bash
 cd vivasayi-ai
 ```
 
 ---
 
-# Install Frontend
+## Install Frontend
 
 ```bash
 npm install
@@ -136,13 +150,13 @@ npm install
 
 ---
 
-# Run Frontend
+## Start Frontend
 
 ```bash
 npm run dev
 ```
 
-Application runs at
+Frontend runs on
 
 ```
 http://localhost:5173
@@ -150,33 +164,27 @@ http://localhost:5173
 
 ---
 
-# Run Backend
+## Start Backend
 
 ```bash
 cd backend
-```
 
-Create Virtual Environment
-
-```bash
 python -m venv .venv
 ```
 
-Activate
-
-Windows
+### Windows
 
 ```bash
 .venv\Scripts\activate
 ```
 
-Linux / macOS
+### Linux / macOS
 
 ```bash
 source .venv/bin/activate
 ```
 
-Install Packages
+Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -188,13 +196,13 @@ Run Server
 uvicorn app.main:app --reload
 ```
 
-Backend runs at
+Backend runs on
 
 ```
 http://localhost:8000
 ```
 
-Swagger Documentation
+Swagger API
 
 ```
 http://localhost:8000/docs
@@ -202,66 +210,73 @@ http://localhost:8000/docs
 
 ---
 
-# 🔗 API Endpoints
+# 🔗 REST API
 
 ## Authentication
 
 | Method | Endpoint |
-|---------|----------|
-| POST | `/api/auth/register` |
-| POST | `/api/auth/login` |
-| GET | `/api/auth/me` |
+|----------|-----------|
+| POST | /api/auth/register |
+| POST | /api/auth/login |
+| GET | /api/auth/me |
+
+### Advisory
+
+| Method | Endpoint |
+|----------|-----------|
+| POST | /api/advisory/ask |
+| GET | /api/advisory/history |
+| DELETE | /api/advisory/history/{id} |
+| DELETE | /api/advisory/history |
+
+### Health
+
+| Method | Endpoint |
+|----------|-----------|
+| GET | /api/health |
 
 ---
 
-## Advisory
+# 📷 Screenshots
 
-| Method | Endpoint |
-|---------|----------|
-| POST | `/api/advisory/ask` |
-| GET | `/api/advisory/history` |
-| DELETE | `/api/advisory/history/{id}` |
-| DELETE | `/api/advisory/history` |
+> Add screenshots here before submitting.
+
+| Home | Dashboard |
+|------|-----------|
+| Screenshot | Screenshot |
+
+| AI Chat | Login |
+|---------|-------|
+| Screenshot | Screenshot |
 
 ---
 
-## Health Check
+# 🚀 Future Scope
 
-| Method | Endpoint |
-|---------|----------|
-| GET | `/api/health` |
+- 🎤 Voice-based Farmer Assistant
+
+- 📷 Image-based Crop Disease Detection
+
+- 🌦 Weather Forecast Integration
+
+- 📍 GPS-based Farming Recommendation
+
+- 🌱 Fertilizer Recommendation System
+
+- 📈 Crop Yield Prediction
+
+- 🔔 Notification System
+
+- 📊 Farmer Analytics Dashboard
 
 ---
 
 # 🌍 Deployment
 
-## Frontend
-
-**Vercel**
-
-https://vivasayi-ai.vercel.app
-
----
-
-## Backend
-
-**Render**
-
-https://vivasayi-ai.onrender.com
-
----
-
-# 🚀 Future Improvements
-
-- 🎤 Voice-based Farmer Assistant
-- 📸 Plant Disease Detection using Images
-- 🌦 Weather Forecast Integration
-- 📍 GPS-based Farming Suggestions
-- 🌱 Fertilizer Recommendation
-- 📈 Crop Yield Prediction
-- 🔔 Push Notifications
-- 🌾 Multi-language Support
-- 📊 Farmer Dashboard & Analytics
+| Platform | Status |
+|----------|--------|
+| Frontend | ✅ Vercel |
+| Backend | ✅ Render |
 
 ---
 
@@ -281,16 +296,16 @@ https://github.com/Rithan1212
 
 # 📄 License
 
-This project is developed for educational purposes as part of a college mini project.
+This project was developed for educational purposes as a college mini project.
 
 ---
 
 <div align="center">
 
-### ⭐ If you found this project useful, consider giving it a Star ⭐
+## ⭐ If you like this project, give it a Star ⭐
 
-Made with ❤️ using React, FastAPI & Google Gemini AI
+Made with ❤️ by **Rithan S**
 
-🌾 **Empowering Farmers through Artificial Intelligence**
+🌾 Empowering Farmers Through Artificial Intelligence 🌾
 
 </div>
