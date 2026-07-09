@@ -10,6 +10,14 @@
   <img src="https://img.shields.io/badge/AI-Google%20Gemini-orange" alt="Gemini">
   <img src="https://img.shields.io/badge/Database-SQLite-lightgrey" alt="SQLite">
 </p>
+<p align="center">
+  <a href="https://vivasayi-pwullhsur-rithanmkv-1068s-projects.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Website-Visit-success?style=for-the-badge" alt="Live Website">
+  </a>
+  <a href="https://vivasayi-ai.onrender.com/docs" target="_blank">
+    <img src="https://img.shields.io/badge/📚%20API%20Docs-Swagger-orange?style=for-the-badge" alt="API Docs">
+  </a>
+</p>
 
 ---
 
@@ -237,28 +245,6 @@ Swagger Documentation
 http://localhost:8000/docs
 ```
 
-# API Endpoints
-
-## Authentication
-
-| Method | Endpoint         | Description   |
-| ------ | ---------------- | ------------- |
-| POST   | `/auth/register` | Register user |
-| POST   | `/auth/login`    | Login         |
-| GET    | `/auth/me`       | Current user  |
-
----
-
-## AI Advisory
-
-| Method | Endpoint        | Description               |
-| ------ | --------------- | ------------------------- |
-| POST   | `/advisory`     | Generate farming advisory |
-| GET    | `/history`      | Retrieve user history     |
-| DELETE | `/history/{id}` | Delete history item       |
-
----
-
 # AI Response Format
 
 Example response:
@@ -332,7 +318,7 @@ pytest
 
 ---
 
-# Deployment
+# Deployment tools
 
 ## Frontend
 
@@ -344,6 +330,16 @@ pytest
 * Render
 * Railway
 * Azure App Service
+
+---
+
+# Deployment
+
+| Service | Platform | Link |
+|---------|----------|------|
+| Frontend | Vercel | https://vivasayi-pwullhsur-rithanmkv-1068s-projects.vercel.app |
+| Backend API | Render | https://vivasayi-ai.onrender.com |
+| API Docs | Render | https://vivasayi-ai.onrender.com/docs |
 
 ---
 
